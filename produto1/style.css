@@ -1,0 +1,53 @@
+header{
+
+background-color:#0f172a;
+
+color:white;
+
+padding:30px;
+
+}
+
+.topo{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+nav{
+
+display:flex;
+
+gap:20px;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:white;
+
+padding:10px 15px;
+
+border-radius:5px;
+
+}
+
+nav a:hover{
+
+background-color:#2563eb;
+
+}
+
+header p{
+
+margin-top:20px;
+
+text-align:center;
+
+}

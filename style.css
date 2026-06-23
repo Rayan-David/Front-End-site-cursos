@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+head h1{
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;/* center - flex-start ou end*/
+    gap: 25px;
+    padding: 30px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.card{
+    width: 500px;
+    background-color: aliceblue;
+    overflow: hidden;/*vai tentar adaptar dentro do card*/
+    padding-bottom: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 350px;
+}
+
+.card:houver{
+    transform: translateX(-20px);
+}
+.card h2{
+    color: blue;
+    text-align: center;
+    padding: 15px;
+}
+
+.card p{
+    padding: 0 15px 15px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.card button{
+    width: 270px;
+    margin-left: 125px;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.card button:houver{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
