@@ -85,3 +85,7 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.card p{
+    text-align: justify;
+}
